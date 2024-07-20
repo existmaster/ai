@@ -1,10 +1,10 @@
 package com.kosta.ai;
 
-import lombok.Value;
+import lombok.Data;
 import jakarta.persistence.Embeddable;
 import java.math.BigDecimal;
 
-@Value
+@Data
 @Embeddable
 public class Money {
     BigDecimal amount;
